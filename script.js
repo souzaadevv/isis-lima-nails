@@ -4,14 +4,13 @@ const mascara = document.querySelector(".mascara-modal")
 function mostraModal(){
 
     modal.style.left = '50%'; 
-
+    modal.style.visibility = 'visible';
     mascara.style.visibility = 'visible'
 }
 
 function esconderModal(){
 
     modal.style.left = '-30%'; 
-
     mascara.style.visibility = 'hidden'
 }
 
