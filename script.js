@@ -154,3 +154,10 @@ document.addEventListener("DOMContentLoaded", () => {
     mudarIdioma(idiomaGuardado || "pt-BR");
 
 });
+
+
+const video = document.querySelector(".caixa-video video");
+
+document.addEventListener("touchstart", () => {
+    video.play().catch(() => {});
+}, { once: true });
