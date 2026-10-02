@@ -710,7 +710,7 @@ body {
 
 @media (max-width: 768px) {
     .header section nav {
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
         gap: 8px;
     }
