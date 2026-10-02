@@ -524,6 +524,7 @@ body {
 
     .slide {
         grid-template-columns: 1fr;
+        height: auto;
         border-radius: 18px;
     }
 
