@@ -706,3 +706,23 @@ body {
         margin-left: 0;
     }
 }
+
+
+@media (max-width: 768px) {
+    .header section nav {
+        flex-direction: column;
+        width: 100%;
+        gap: 8px;
+    }
+
+    .header section nav a {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .idiomas {
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
+    }
+}
