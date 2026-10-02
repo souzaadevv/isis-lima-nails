@@ -203,6 +203,7 @@ section{
 }
 
 .modal {
+    visibility: hidden;
     display: flex;
     flex-direction: column;
     background-color: transparent;
