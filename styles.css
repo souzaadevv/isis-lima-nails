@@ -677,20 +677,27 @@ body {
 
 @media (max-width: 768px) {
     .header section {
-        flex-wrap: wrap;
-        gap: 10px;
-        padding: 10px;
-    }
-
-    .header section nav {
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 5px;
+        padding: 8px;
+    }
+
+    .header section a img {
+        height: 45px;
+    }
+
+    .header section nav {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3px;
     }
 
     .header section nav a {
-        font-size: 14px;
-        margin: 0 5px;
+        font-size: 13px;
+        margin: 0 4px;
     }
 
     .idiomas {
