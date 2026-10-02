@@ -701,10 +701,12 @@ body {
     }
 
     .idiomas {
-        width: 100%;
-        justify-content: center;
-        margin-left: 0;
-    }
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0;
+}
 }
 
 
@@ -721,8 +723,10 @@ body {
     }
 
     .idiomas {
-        width: 100%;
-        justify-content: center;
-        margin-left: 0;
-    }
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0;
+}
 }
