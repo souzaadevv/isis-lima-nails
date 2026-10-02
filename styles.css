@@ -730,4 +730,20 @@ body {
     justify-content: center;
     margin-left: auto;
 }
+
+
+
+
+    .idiomas {
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {
+    .idiomas {
+        margin-left: auto;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+    }
 }
