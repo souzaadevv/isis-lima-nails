@@ -748,3 +748,14 @@ body {
         gap: 8px;
     }
 }
+
+
+@media (min-width: 769px) {
+    .header section nav {
+        width: auto;
+    }
+
+    .idiomas {
+        margin-left: 40px;
+    }
+}
