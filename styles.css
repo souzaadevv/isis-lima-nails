@@ -648,6 +648,24 @@ body {
     transition: 0.3s;
 }
 
+
+
+@media (max-width: 768px) {
+    .header nav {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .idiomas {
+        display: flex;
+    }
+
+    .idiomas button {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+}
+
 .idiomas button:hover {
     background-color: #f5e8e8;
     transform: scale(1.05);
