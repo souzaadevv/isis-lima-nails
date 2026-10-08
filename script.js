@@ -6,6 +6,7 @@ function mostraModal(){
     modal.style.left = '-100%'; 
     modal.style.visibility = 'visible';
     mascara.style.visibility = 'visible'
+    window.scrollTo(0, 0);
 }
 
 function esconderModal(){
