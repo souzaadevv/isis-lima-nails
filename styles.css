@@ -211,7 +211,7 @@ section{
     gap: 20px;
     z-index: 4;
     position: fixed;
-    top: 50%;
+    top: 50vh;
     left: -100%;
     transform: translate(-50%, -50%);
 
