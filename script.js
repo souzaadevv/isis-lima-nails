@@ -5,14 +5,14 @@ function mostraModal(){
 
     modal.style.left = '50%'; 
     modal.style.visibility = 'visible';
-    mascara.style.visibility = 'visible'
+    mascara.style.visibility = 'visible';
     
 }
 
 function esconderModal(){
 
-    modal.style.left = '-100%'; 
-    mascara.style.visibility = 'hidden'
+    modal.style.visibility = 'hidden';
+    mascara.style.visibility = 'hidden';
 }
 
 const track = document.querySelector(".carousel-track");
