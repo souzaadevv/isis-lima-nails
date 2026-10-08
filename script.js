@@ -3,7 +3,7 @@ const mascara = document.querySelector(".mascara-modal")
 
 function mostraModal(){
 
-    modal.style.left = '50%'; 
+    modal.style.left = '-100%'; 
     modal.style.visibility = 'visible';
     mascara.style.visibility = 'visible'
 }
